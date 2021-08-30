@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><theme format-ver="01.00" package="0">
+<!--
+
+Template
+by CaSquall
+
+Note:
+
+ All image names are changable.
+
+ All images have to be their respective dimensions and saved as PNG's with an 8-bit pixel depth 
+ This can be done in photoshop by holding ctrl+alt+shift then pressing W, 
+ an "export image as" window appears, make sure you select PNG-8 from the drop-down menu and then export to desired folder.
+ You can double check that your image is in 8-bit format by right clicking it, selecting properties, 
+ click the details pane and you can see bit depth just a bit down, if its 8 then you've done well.
+(8-bit depth doesn't seem necessary for some files, but save in 8-bit depth to be on the safe side on all images)
+ Use this theme as a template for image dimensions.
+ 
+ All color codes used in theme.xml includes an alpha channel, that is why they are 8 digits.
+ The two first digits represent the alpha channel 00 being 0% and ff being 100% (Most things seem unaffected by this value though)
+ The remaining 6 digits are just a normal hex color code, so for example ff000000 would be the color white without any transparency.
+ 
+ Happy skinning
+-->
+  <StartScreenProperty>
+<!-- Lockscreen settings start -->
+    <m_filePath>lockpaper.png</m_filePath>
+<!-- Lockscreen wallpaper -->
+    <m_dateColor>ffffffff</m_dateColor>
+<!-- Clock/date font color -->
+    <m_dateLayout>0</m_dateLayout>
+<!-- Clock/date lockscreen placement
+      0 = Bottom left
+	  1 = Top left
+	  2 = Bottom Right -->
+    <m_notifyBgColor>64000000</m_notifyBgColor>
+<!-- Notification box color -->
+    <m_notifyBorderColor>ff000000</m_notifyBorderColor>
+<!-- Notification box border color -->
+    <m_notifyFontColor>ffffffff</m_notifyFontColor>
+<!-- Notification box font color -->
+  </StartScreenProperty>
+<!-- Lockscreen settings end -->
+  <InfomationBarProperty>
+<!-- Top bar settings start -->
+    <m_barColor>00000000</m_barColor>
+<!-- Bar color -->
+    <m_indicatorColor>00ffffff</m_indicatorColor>
+<!-- Bar font color -->
+    <m_noticeFontColor>00ffffff</m_noticeFontColor>
+<!-- Notification-bubble font color -->
+    <m_noticeGlowColor>ffffffff</m_noticeGlowColor>
+<!-- Notification-bubble glow color -->
+    <m_noNoticeFilePath>notices.png</m_noNoticeFilePath>
+<!-- Notification-bubble skin -->
+    <m_newNoticeFilePath>notice.png</m_newNoticeFilePath>
+<!-- Notification-bubble skin (When there's notifications) -->
+  </InfomationBarProperty>
+<!-- Top bar settings end -->
+  <InfomationProperty>
+<!-- Theme information settings start -->
+    <m_contentVer>02.00</m_contentVer>
+<!-- Theme version -->
+    <m_title>
+      <m_default>Death's Gambit</m_default>
+<!-- Default theme name -->
+    </m_title>
+    <m_provider>
+      <m_default>rockmandr</m_default>
+    </m_provider>
+<!-- Name of theme creator -->
+    <m_homePreviewFilePath>preview_page.png</m_homePreviewFilePath>
+    <m_startPreviewFilePath>preview_lockscreen.png</m_startPreviewFilePath>
+<!-- Preview images (Homescreen page and lockscreen) viewable when selecting the theme in settings -->
+    <m_packageImageFilePath>preview_thumbnail.png</m_packageImageFilePath>
+<!-- Theme thumbnail/icon -->
+  </InfomationProperty>
+  <HomeProperty>
+    <m_bgParam>
+      <BackgroundParam>
+<!-- Each BackgroundParam is each page on the homescreen, going from top to bottom, to a maximum of 10 BackgroundParam. 
+     Each homescreen have individual settings which can be changed on a screen-to-screen basis -->
+        <m_thumbnailFilePath>w0t.png</m_thumbnailFilePath>
+<!-- Thumbnail image for this homescreens wallpaper when viewing through wallpaper selection, is not necessary to have -->
+        <m_imageFilePath>w0.png</m_imageFilePath>
+<!-- Wallpaper -->
+        <m_waveType>11</m_waveType>
+<!-- Wavetype, see: (N/A yet) for chart. -->
+        <m_fontColor>ffffffff</m_fontColor>
+<!-- Font color -->
+        <m_fontShadow>1</m_fontShadow>
+<!-- Font shadow
+     0 = off
+	 1 = on -->
+      </BackgroundParam>
+<!-- Homescreen 1 done, next BackgroundParam is homescreen 2 and so on (max 10 BackgroundParam, can be less but wont display any wallpaper on those homescreens) -->
+      <BackgroundParam>
+        <m_thumbnailFilePath>w1t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w1.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+	  <BackgroundParam>
+        <m_thumbnailFilePath>w2t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w2.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+	  <BackgroundParam>
+        <m_thumbnailFilePath>w3t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w3.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+	  <BackgroundParam>
+        <m_thumbnailFilePath>w4t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w4.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+	  <BackgroundParam>
+        <m_thumbnailFilePath>w5t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w5.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+	  <BackgroundParam>
+        <m_thumbnailFilePath>w6t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w6.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+	  <BackgroundParam>
+        <m_thumbnailFilePath>w7t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w7.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+	  <BackgroundParam>
+        <m_thumbnailFilePath>w8t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w8.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+	  <BackgroundParam>
+        <m_thumbnailFilePath>w9t.png</m_thumbnailFilePath>
+        <m_imageFilePath>w9.png</m_imageFilePath>
+        <m_waveType>11</m_waveType>
+        <m_fontColor>ffffffff</m_fontColor>
+        <m_fontShadow>1</m_fontShadow>
+      </BackgroundParam>
+    </m_bgParam>
+<!-- Homescreens end -->
+    <m_bgmFilePath>BGM.at9</m_bgmFilePath>
+<!-- Background music -->
+    <m_basePageFilePath>basePage.png</m_basePageFilePath>
+<!-- Page dot image -->
+    <m_curPageFilePath>curPage.png</m_curPageFilePath>
+<!-- Page dot image for current page -->
+    <m_browser>
+      <m_iconFilePath>Browser.png</m_iconFilePath>
+    </m_browser>
+    <m_video>
+      <m_iconFilePath>Videos.png</m_iconFilePath>
+    </m_video>
+    <m_music>
+      <m_iconFilePath>Music.png</m_iconFilePath>
+    </m_music>
+    <m_ps3Link>
+      <m_iconFilePath>PS3RemotePlay.png</m_iconFilePath>
+    </m_ps3Link>
+    <m_party>
+      <m_iconFilePath>Party.png</m_iconFilePath>
+    </m_party>
+    <m_trophy>
+      <m_iconFilePath>Trophies.png</m_iconFilePath>
+    </m_trophy>
+    <m_near>
+      <m_iconFilePath>Near.png</m_iconFilePath>
+    </m_near>
+    <m_hostCollabo>
+      <m_iconFilePath>ContentManager.png</m_iconFilePath>
+    </m_hostCollabo>
+    <m_ps4Link>
+      <m_iconFilePath>PS4Link.png</m_iconFilePath>
+    </m_ps4Link>
+    <m_friend>
+      <m_iconFilePath>Friends.png</m_iconFilePath>
+    </m_friend>
+    <m_email>
+      <m_iconFilePath>Email.png</m_iconFilePath>
+    </m_email>
+    <m_calendar>
+      <m_iconFilePath>Calendar.png</m_iconFilePath>
+    </m_calendar>
+    <m_message>
+      <m_iconFilePath>Messages.png</m_iconFilePath>
+    </m_message>
+    <m_parental>
+      <m_iconFilePath>ParentalControls.png</m_iconFilePath>
+    </m_parental>
+    <m_camera>
+      <m_iconFilePath>Photos.png</m_iconFilePath>
+    </m_camera>
+    <m_settings>
+      <m_iconFilePath>Settings.png</m_iconFilePath>
+    </m_settings>
+    <m_power>
+      <m_iconFilePath>Power.png</m_iconFilePath>
+    </m_power>
+<!-- Icon names for all "theme-able" homescreen icons.
+     Welcome Park, PSN Store and game/application icons cannot be changed with themes currently. -->
+  </HomeProperty>
+</theme>
